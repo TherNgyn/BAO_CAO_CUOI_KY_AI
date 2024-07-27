@@ -1,6 +1,8 @@
 import sys
 from collections import deque
 from utils import *
+from collections import deque
+import math
 
 class Problem:
     def __init__(self, initial, goal=None):
@@ -398,7 +400,6 @@ class EightPuzzle(Problem):
 
 
 # ______________________________________________________________________________
-
 
 class PlanRoute(Problem):
     """ The problem of moving the Hybrid Wumpus Agent from one place to other """
